@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SomeContentComponent } from './some-content/some-content.component';
+import { ExtractorDirective } from './extractor.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SomeContentComponent,
+    ExtractorDirective
   ],
   imports: [
     BrowserModule,
